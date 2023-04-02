@@ -61,6 +61,7 @@
 .logo-style{
     position: relative;
     /* margin-top: 0.2rem; */
+    top: 0;
 }
 
 .logo-style img {
@@ -81,7 +82,7 @@
 
 
 #mySidenav{
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .sidenav {
@@ -100,7 +101,7 @@
 
   .menu-icon{
     color: rgb(248, 6, 6);
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
   
   .sidenav a {
@@ -240,8 +241,11 @@
     margin-top: 3rem;
   }
 
-  
+  .logo-style{
+    position: absolute;
+  }
 }
+
 
 
 
