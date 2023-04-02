@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+
+
+    <div class="container-fluid">
+
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col">
+                   
+                    <video loop autoplay muted id="vid" class="video-bg">
+                        <source type="video/mp4" src="video_file.mp4"></source>
+                        <source type="video/ogg" src="./images/background.mp4"></source>
+               </video>
+
+                </div> <!---col-->
+
+            </div> <!---row-->
+        </div> <!---conatiner-fluid video bg-->
+
+
+        <!-- XX ===== background video ends here XX ==== -->
+
+
+
+
+
+
+        <navbar-container>
+            <div class="row">
+
+
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col">
+                            <div class="logo-style">
+                            <img class="img-fluid" src="./images/re-logo.gif" alt=""> 
+                        </div> <!---logo style-->
+                            <div class="logo-heading">
+                            <p>The Shubam group Of Company</p>
+                        </div> <!--logo-heading-->
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-6">
+                    <div class="mobile-menu">
+
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Our Team</a>
+                        <a href="#">MasterPiece</a>
+                        <a href="#">Vendor/Join us</a>
+                        <a href="#">Contact</a>
+                        <a href="#">Blogs</a>
+                      
+                        
+                      </div>
+                      
+                      <span class="menu-icon" style="font-size:30px;cursor:pointer; float: right;" onclick="openNav()">&#9776; Menu</span>
+
+                    </div> <!---mobile menu -->
+
+                    
+
+
+
+
+                    <div class="col-12">
+                    <div class="large-screen-menu" >
+
+                            <a class="nav-items" href="#">Home</a>
+                            <a class="nav-items" href="#about">About</a>
+                            <a class="nav-items" href="#">Our Team</a>
+                            <a class="nav-items" href="#">MasterPiece</a>
+                            <a class="nav-items" href="#">Vendor/Join us</a>
+                            <a class="nav-items" href="#">Contact</a>
+                            <a class="nav-items" href="#">Blogs</a>
+                          
+                            
+                          </div>
+                        
+    
+                        </div> <!---large screen menu -->
+                    </div>
+
+
+
+
+
+                </div> <!----col-->
+
+
+
+                
+            </div> <!---row-->
+
+
+
+
+        </navbar-container>  <!--- ====== navbar ends here ======== ----->
+
+
+
+
+        <!-- ======= Welcome To the shubham group heading ====== -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="welcome-heading">
+                        <h1>Welcome TO</h1>
+                        <h1>The Shubam Group Of Companies</h1>
+                        <h3>We Build</h3>
+                        <h1 class="built-heading">REALESATATE, CONSTRUCTION, RESORTS, COLLABORATION</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ======= Welcome To the shubham group heading ====== -->
+
+
+        <!-- ==== our clients/projects ==== -->
+            
+            <section class="project-slidder-wrapper">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+
+
+  <div class="swiper mySwiper">
+    <h1>Our Projects</h1>
+
+    <div class="swiper-wrapper "> 
+      <div class="swiper-slide "><img src="./images/clients/adh.png" alt="" /></div>
+      <div class="swiper-slide "><img src="./images/clients/chr.png" alt="" /></div>
+      <div class="swiper-slide "><img src="./images/clients/clients.png" alt="" /></div>
+      <div class="swiper-slide "><img src="./images/clients/ivm.png" alt="" /></div>
+      <div class="swiper-slide "><img src="./images/clients/ivm_resort.png" alt="" /></div>
+      <div class="swiper-slide "><img src="./images/clients/mr.png" alt="" /></div>
+      <div class="swiper-slide "><img src="./images/clients/ocean.png" alt="" /></div>
+      <div class="swiper-slide "><img src="./images/clients/smh.png" alt="" /></div>
+
+    
+
+    </div>
+    <!-- <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div> -->
+    <!-- <div class="swiper-pagination"></div> -->
+  </div>
+
+    </div>
+
+                        </div> <!--- col -->
+                    </div> <!-- row -->
+                </div> <!--- container  -->
+
+            </section> <!--- project-slidder-wrapper -->
+
+        <!-- XX ==== our clients/projects XX ==== -->
+
+
+
+
+    </div> <!---  ======== XX container main class XX ======== -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
