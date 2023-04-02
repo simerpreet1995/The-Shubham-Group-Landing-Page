@@ -237,13 +237,12 @@
 /* media query */
 
 @media (max-width: 620px) {
+  
   .welcome-heading{
-    margin-top: 3rem;
+    margin-top: 5rem;
   }
 
-  .logo-style{
-    position: absolute;
-  }
+
 }
 
 
